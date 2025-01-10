@@ -10,8 +10,9 @@
 
 Выполнить команду.
 
-###psql -U postgres -d werent -f werent_pgdump.sql
+### psql -U postgres -d werent -f werent_pgdump.sql
 
 Для быстрой проверки выполнения задания следует перенести все содержимое репозитория в директорию /var/www/html
 
-###http://localhost/index.php
+В файле index.php необходимо настроить конфигурацию для подключения к БД
+### http://localhost/index.php

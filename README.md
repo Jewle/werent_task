@@ -8,7 +8,8 @@
 ### sudo apt install postgresql
 ### sudo apt install apache2
 
-Выполнить команду 
+Выполнить команду.
+
 ###psql -U postgres -d werent -f werent_pgdump.sql
 
 Для быстрой проверки выполнения задания следует перенести все содержимое репозитория в директорию /var/www/html
